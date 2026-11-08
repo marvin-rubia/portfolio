@@ -296,6 +296,92 @@ h2 {
     margin-bottom: 12px;
 }
 
+/* Learning Subsections */
+.learning-subsection {
+    margin-bottom: 45px;
+}
+
+.subsection-title {
+    font-size: 1.4rem;
+    color: var(--accent);
+    margin-bottom: 20px;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 8px;
+}
+
+/* Currently Reading Status Badge */
+.currently-reading-card {
+    position: relative;
+    border-color: rgba(56, 189, 248, 0.4);
+}
+
+.status-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+/* Certificates Grid & Cards */
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.certificate-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.certificate-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+}
+
+.cert-image-container {
+    width: 100%;
+    height: 180px;
+    background-color: #0d1527;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cert-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cert-info {
+    padding: 16px;
+}
+
+.cert-info h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+}
+
+.cert-issuer {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -304,3 +390,4 @@ footer {
     color: var(--text-secondary);
     font-size: 0.9rem;
 }
+
