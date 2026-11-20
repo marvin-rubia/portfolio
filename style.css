@@ -499,3 +499,81 @@ html, body {
     }
 }
 
+/* Collapsible Reading Notes */
+.reading-notes {
+    margin-top: 20px;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border-color 0.2s ease;
+}
+
+.reading-notes:hover,
+.reading-notes[open] {
+    border-color: var(--accent);
+}
+
+.notes-toggle {
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--accent);
+    cursor: pointer;
+    list-style: none; /* Hides default browser triangle */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    transition: background-color 0.2s ease;
+}
+
+.notes-toggle:hover {
+    background-color: var(--bg-card-hover);
+}
+
+/* Hides default arrow in Safari/Chrome */
+.notes-toggle::-webkit-details-marker {
+    display: none;
+}
+
+/* Custom '+' and '−' toggle indicator on the right */
+.notes-toggle::after {
+    content: "+";
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.reading-notes[open] .notes-toggle::after {
+    content: "−";
+}
+
+/* Expanded Notes Body */
+.notes-content {
+    padding: 20px 24px;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    line-height: 1.7;
+    animation: fadeIn 0.25s ease-in-out;
+}
+
+.notes-content h4 {
+    color: var(--text-primary);
+    margin: 18px 0 6px 0;
+    font-size: 1.05rem;
+}
+
+.notes-content h4:first-child {
+    margin-top: 0;
+}
+
+.notes-content p {
+    margin: 0 0 12px 0;
+}
+
+.notes-content p:last-child {
+    margin-bottom: 0;
+}
+
