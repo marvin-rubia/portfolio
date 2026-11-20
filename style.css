@@ -570,6 +570,7 @@ html, body {
 }
 
 .notes-content p {
+    font-size: 0.9rem;
     margin: 0 0 12px 0;
 }
 
