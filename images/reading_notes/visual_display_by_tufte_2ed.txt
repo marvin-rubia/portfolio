@@ -1,7 +1,0 @@
-Preface and Introduction
-• Tufte self-published the book by borrowing from a bank. He took the loan for the 2nd weirdest reason the bank had ever seen. The 1st was a loan for a circus to buy an elephant. LOL.
-• Statistical graphics were invented around 1750 to 1800.
-• This book is essentially about design AND statistics. The first part draws on the principles of William Playfair (1759-1823), a founder of graphical methods of statistics.
-
-Ch1: Graphical Excellence
-• 
