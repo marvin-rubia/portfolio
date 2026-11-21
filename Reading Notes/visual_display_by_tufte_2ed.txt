@@ -3,4 +3,4 @@ Preface and Introduction
 
 • Statistical graphics were invented around 1750 to 1800.
 
-• This book is essentially about design AND statistics. The first part draws on the principles put forward by William Playfair (1759-1823), a founder of graphical methods of statistics.
+• This book is essentially about design AND statistics. The first part draws on the principles of William Playfair (1759-1823), a founder of graphical methods of statistics.
