@@ -6,5 +6,6 @@ Preface and Introduction
 Ch1: Graphical Excellence
 • Graphical displays should induce the viewer to think about the substance rather than about methodology, design, etc., and should encourage them to compare different pieces of data at different levels (broad and granular), and graphical displays should be closely integrated with statistical and verbal descriptions of a dataset.
 • A visualization can easily show the few outliers in the data. 
-• Random thought: biological sex is an important variable to analyze cancer risks. For example, we can create 2 heat maps for each cancer type (one for each sex), especially if we print the maps, so we cannot filter by sex.
+• Random thought: biological sex is an important variable to analyze diseases. For example, we can create 2 heat maps for each cancer type (one for each sex), especially if we print the maps, so we cannot filter by sex.
+• Limitation of maps: the geographic area is not necessarily proportional to population. So, risk per N people is a common metric to visualize instead of absolute counts. 
 • 
